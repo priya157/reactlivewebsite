@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.main_div {
+  background: aquamarine;
+  padding: 50px;
+  
+}
+
+.subdiv {
+  text-align: center;
+  background: #fff;
+  padding: 15px 15px;
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  display: table;
+  margin-left: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+.App-link {
+  color: #61dafb;
+}
+.button_section {
+  text-align: center;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*style*/
+.MuiInputBase-input {
+  font: inherit;
+  color: currentColor;
+  width: 100%;
+  border: 0;
+  height: 1.1876em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  -webkit-tap-highlight-color: transparent;
+}
+input[type="text"] {
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #ddd;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.item_add_btn {
+  /* padding: 7px 10px !important; */
+  background: #7fffd4;
+  border-radius: 50px;
+  padding: 15px;
+}
+.List_item {
+  list-style-type: none;
+  text-align: left;
+}
+input[type="text"]:focus-visible{
+  border:none !important;
+}
+form {
+  padding: 0px !important;
+}
+.todolistname {
+  display: flex;
+  text-align: left;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+/*chart*/
+
+.chart{width:500px;}
